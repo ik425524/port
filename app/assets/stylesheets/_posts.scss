@@ -1,4 +1,21 @@
+a {
+  list-style: none;
+  text-decoration: none;
+}
 .header {
-  background-color: red;
-  font-size: large;
+  background-color: #b0e4f4;
+  height: 140px;
+
+  &__texts {
+    height: 140px;
+    vertical-align: middle;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    &__text {
+      color: white;
+      font-size: 50px;
+    }
+  }
 }
