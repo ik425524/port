@@ -17,5 +17,38 @@ a {
       color: white;
       font-size: 50px;
     }
+    a {
+      color: white;
+    }
+  }
+}
+.title {
+  height: 940px;
+  text-align: center;
+  position: relative;
+
+  &__text {
+    position: absolute;
+    padding: 20px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: 150px;
+    font-size: 100px;
+  }
+  &__sub {
+    position: absolute;
+    padding: 20px;
+    top: 130px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 50%;
+    height: 20px;
+    font-size: 20px;
   }
 }
